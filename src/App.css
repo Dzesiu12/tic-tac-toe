@@ -24,27 +24,25 @@
   margin: 0 auto;
 }
 
-.content{
+.content {
   display: flex;
 }
 
-.boxBox{
+.boxBox {
   width: 48%;
   height: 55vh;
   margin: 20px;
   background-color: transparent;
 }
 
-.board{
+.board {
   display: flex;
   flex-wrap: wrap;
 }
 
-.history{
-  width: 47%;
-  background-color: mediumseagreen;
-  height: 55vh;
-  margin: 20px;
+.board .winner{
+  width: 100%;
+  border: 1px solid whitesmoke
 }
 
 .square {
@@ -54,11 +52,18 @@
   width: 33.3%;
   font-size: 64px;
   transition: 0.3s;
-  height: 177px
+  height: 167px;
 }
 
-.square:hover{
+.square:hover {
   background-color: #282c40;
+}
+
+.history {
+  width: 47%;
+  background-color: transparent;
+  height: 55vh;
+  margin: 20px;
 }
 
 @keyframes App-logo-spin {
